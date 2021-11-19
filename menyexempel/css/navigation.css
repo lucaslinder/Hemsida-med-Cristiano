@@ -1,0 +1,40 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 0, 255);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(30, 255, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(0, 47, 255);
+}
+
+@media screen and (min-width: 320px) {
+    body {
+        background-color: #678;
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    body {
+        background-color:C0C0C0;
+        font-size: 20px;
+    }
+}
